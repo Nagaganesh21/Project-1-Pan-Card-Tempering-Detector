@@ -1,0 +1,21 @@
+@media screen and (max-width: 2400px) {
+    /* Styles for smaller screens */
+    [data-testid="stAppViewContainer"] > .main {
+        background-size: cover;
+    }
+
+    [data-testid="stSidebar"] > div:first-child {
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    /* Styles for larger screens */
+    [data-testid="stAppViewContainer"] > .main {
+        background-size: 100%;
+    }
+
+    [data-testid="stSidebar"] > div:first-child {
+        background-size: 150%;
+    }
+}
