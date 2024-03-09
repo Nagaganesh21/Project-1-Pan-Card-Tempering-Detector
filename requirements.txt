@@ -1,7 +1,5 @@
 numpy
 streamlit
-opencv-python
 requests
 Pillow
 scikit-image
-opencv-python-headless
