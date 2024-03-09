@@ -3,6 +3,8 @@ import numpy as np
 from PIL import Image
 from skimage.metrics import structural_similarity
 
+#print("OpenCV version:", cv2.__version__)  # Print OpenCV version
+
 def resize_image(image, width, height):
     """Resize the input image to the specified width and height."""
     image_np = np.array(image)  # Convert PIL Image to NumPy array

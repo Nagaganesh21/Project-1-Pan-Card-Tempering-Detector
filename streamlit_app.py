@@ -5,6 +5,7 @@ from PIL import Image
 import requests
 import app_config as app_config    # Import configuration
 from utils.image_utils import resize_image, calculate_similarity  # Import image utilities
+import cv2
 
 # Import style from CSS file
 def load_css(file_path):
